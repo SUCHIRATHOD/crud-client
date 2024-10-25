@@ -1,38 +1,135 @@
-.App {
+/* Dashboard.css */
+.dashboard-container {
+  margin-top: 2rem;
+}
+
+.dashboard-title {
   text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #343a40;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.table {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.table th, .table td {
+  text-align: center;
+  vertical-align: middle;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn-success {
+  margin-right: 0.5rem;
+  background-color: #28a745;
+  border: none;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn:hover {
+  opacity: 0.9;
+}
+/* Navbar.css */
+.navbar {
+  background-color: #343a40;
+  padding: 1rem;
+}
+
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-size: 1.1rem;
+}
+
+.nav-link:hover {
+  color: #adb5bd !important;
+}
+
+.navbar .nav-link {
+  margin-left: 1rem;
+}
+/* PostUser.css */
+.center-form {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.center-form h1 {
+  text-align: center;
+  color: #343a40;
+  margin-bottom: 1.5rem;
+}
+
+.form-label {
+  font-weight: bold;
+  color: #495057;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+}
+
+.btn {
+  background-color: #343a40;
+  color: #fff;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #495057;
+}
+/* UpdateUser.css */
+.center-form {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.center-form h1 {
+  text-align: center;
+  color: #343a40;
+  margin-bottom: 1.5rem;
+}
+
+.form-label {
+  font-weight: bold;
+  color: #495057;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+}
+
+.btn {
+  background-color: #343a40;
+  color: #fff;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #495057;
+}
+/* NoMatch.css */
+.no-match {
+  text-align: center;
+  margin-top: 3rem;
+  color: #6c757d;
+  font-size: 1.5rem;
 }
