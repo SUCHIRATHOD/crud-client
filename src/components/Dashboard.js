@@ -10,7 +10,7 @@ const Dashboard = () => {
 
   const fetchUsers = async () => {
     try {
-      const response = await fetch("http://localhost:7000/api/user");
+      const response = await fetch("https://crud-server-y3zq.onrender.com/api/user");
       const data = await response.json();
       setUsers(data)
     } catch (error) {
@@ -29,7 +29,7 @@ navigate(`/user/${userId}`);
 
 const handleDelete = async (userId) => {
   try {
-    const response = await fetch(`http://localhost:7000/api/user/${userId}`, {
+    const response = await fetch(`https://crud-server-y3zq.onrender.com/api/user/${userId}`, {
       method : "DELETE"
     });
     console.log(response);
